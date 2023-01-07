@@ -3,7 +3,7 @@
 
 1. Проект о путешествиях по России
 2. В проекте использовались такие технологии как Flexbox, Grid Layout, БЭМ, Nested, media запросы, инструменты для "резиновой и адаптивной" верстке.
-3. Ссылка на проект для просмотра - https://stavr41.github.io/russian-travel/
+3. Ссылка на проект для просмотра - https://stavr41.github.io/russian-travel/index.html
 
 
 
