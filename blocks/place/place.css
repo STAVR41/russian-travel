@@ -1,0 +1,29 @@
+.place {
+   display: grid;
+   grid-template-areas: "title website" "image text";
+   grid-template-columns: 460px 1fr;
+   row-gap: 48px;
+   -moz-column-gap: 40px;
+        column-gap: 40px;
+ }
+ @media (max-width: 1024px) {
+   .place {
+     -moz-column-gap: 32px;
+          column-gap: 32px;
+     grid-template-columns: 440px 456fr;
+   }
+ }
+ @media (max-width: 768px) {
+   .place {
+     -moz-column-gap: 28px;
+          column-gap: 28px;
+     grid-template-columns: 340px 1fr;
+   }
+ }
+ @media (max-width: 700px) {
+   .place {
+     row-gap: 32px;
+     grid-template-columns: 1fr;
+     grid-template-areas: "title" "website" "image" "text";
+   }
+ }

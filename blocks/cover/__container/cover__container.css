@@ -1,0 +1,46 @@
+.cover__container {
+   color: inherit;
+   background: url("../../../images/baikal-road.png") no-repeat center;
+   background-size: cover;
+   width: 100%;
+   min-height: 740px;
+   margin: 0 auto;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   text-decoration: none;
+ }
+ @media (max-width: 1024px) {
+   .cover__container {
+     min-height: 640px;
+   }
+ }
+ @media (max-width: 768px) {
+   .cover__container {
+     min-height: 480px;
+   }
+ }
+ @media (max-width: 320px) {
+   .cover__container {
+     min-height: 200px;
+   }
+ }
+ .cover__container::before {
+   content: "";
+   width: 100%;
+   height: 100%;
+   background: #2A2C2F;
+   opacity: 0.3;
+   z-index: 2;
+   position: absolute;
+   top: 0;
+   left: 0;
+   transition: opacity 0.7s ease;
+ }
+ .cover__container:hover::before {
+   content: "";
+   opacity: 0.8;
+ }

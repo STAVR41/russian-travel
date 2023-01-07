@@ -1,0 +1,18 @@
+.what__list {
+   margin: 0 0 92px;
+   list-style: none;
+   padding: 0;
+   font-weight: 700;
+   line-height: 150%;
+   font-size: 12px;
+ }
+ @media (max-width: 768px) {
+   .what__list {
+     margin: 0 0 88px;
+   }
+ }
+ @media (max-width: 425px) {
+   .what__list {
+     margin: 0 0 64px;
+   }
+ }

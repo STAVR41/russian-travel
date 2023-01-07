@@ -1,0 +1,12 @@
+.cover__text {
+   z-index: 2;
+   font-size: 18px;
+   line-height: 22px;
+   max-width: 360px;
+   margin: 0;
+ }
+ @media (max-width: 768px) {
+   .cover__text {
+     font-size: calc(14px + 8 * (100vw - 320px) / 448);
+   }
+ }
