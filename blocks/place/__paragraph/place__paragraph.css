@@ -2,12 +2,13 @@
    margin: 0;
    line-height: 163%;
    font-size: 18px;
+   margin: 0 0 26px;
  }
  @media (max-width: 768px) {
    .place__paragraph {
       font-size: 16px;
    }
  }
- .place__paragraph:first-child {
-   margin: 0 0 26px;
+ .place__paragraph:last-child {
+   margin: 0;
  }

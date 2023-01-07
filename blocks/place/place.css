@@ -13,7 +13,7 @@
      grid-template-columns: 440px 456fr;
    }
  }
- @media (max-width: 768px) {
+ @media (max-width: 1000px) {
    .place {
      -moz-column-gap: 28px;
           column-gap: 28px;

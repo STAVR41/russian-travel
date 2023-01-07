@@ -5,7 +5,7 @@
    margin-top: calc(16px + 16 * (100vw - 320px) / 960);
    margin-bottom: calc(40px + 24 * (100vw - 320px) / 960);
  }
- @media (max-width: 425px) {
+ @media (max-width: 767px) {
    .travel__subtitle {
       font-size: 16px;
    }
