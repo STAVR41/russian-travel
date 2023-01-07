@@ -18,7 +18,7 @@
 
 @import url("../blocks/what/what.css");
 @import url("../blocks/what/__list/what__list.css");
-@import url("../blocks/what/__list/_number/what__list_number.css");
+@import url("../blocks/what/__list-number/what__list-number.css");
 @import url("../blocks/what/__text/what__text.css");
 @import url("../blocks/what/__title/what__title.css");
 
